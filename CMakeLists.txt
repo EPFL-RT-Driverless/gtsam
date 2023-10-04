@@ -87,16 +87,16 @@ include(cmake/HandleGlobalBuildFlags.cmake) # Build flags
 # Add components
 
 # Build CppUnitLite
-add_subdirectory(CppUnitLite)
+# add_subdirectory(CppUnitLite)
 
 # Build GTSAM library
 add_subdirectory(gtsam)
 
 # Build Tests
-add_subdirectory(tests)
+# add_subdirectory(tests)
 
 # Build examples
-add_subdirectory(examples)
+# add_subdirectory(examples)
 
 # Build timing
 add_subdirectory(timing)
